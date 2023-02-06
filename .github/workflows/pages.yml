@@ -17,7 +17,7 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GH_TOKEN }}
 
         # The repository the action should deploy to.
-        PUBLISH_REPOSITORY: Finned-Digital-Solutions/Finned-Digital-Solutions.github.io
+        PUBLISH_REPOSITORY: Finned-Digital-Solutions/blog
 
         # The branch the action should deploy to.
         BRANCH: main
