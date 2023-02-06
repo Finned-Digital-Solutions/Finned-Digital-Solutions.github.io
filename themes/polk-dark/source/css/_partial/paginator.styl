@@ -1,0 +1,31 @@
+:root {
+    --dark-primary: #18191A;
+    --dark-secondary: #242526;
+    --dark-complement: #3A3B3C;
+    --text-primary: #E4E6EB;
+    --text-secondary: rgb(176, 179, 184);
+    --blue-accent-emphasis: #1f6feb;
+    --blue-accent-muted: rgba(56,139,253,0.4);
+    --blue-accent-subtle: rgba(56,139,253,0.15);
+}
+
+.page-nav {
+  padding: 0 20px;
+
+  .prev,
+  .page-number {
+    padding: 10px 20px 10px 0;
+  }
+
+  .next {
+    float: right;
+  }
+
+  a {
+    color: var(--text-secondary);
+
+    &:hover {
+      color: var(--text-primary);
+    }
+  }
+}

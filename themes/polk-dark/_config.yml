@@ -1,0 +1,13 @@
+# Favicon
+favicon: https://finned.tech/assets/img/logo.png
+
+# SEO
+keywords: finned, ai, ml, data, daas
+
+# Site title separator
+separator: '-'
+
+# SNS config
+sns:
+  Blog: /
+  GitHub: https://github.com/Finned-Digital-Solutions
